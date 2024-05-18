@@ -1,0 +1,34 @@
+.parent-container {
+    border: 1px solid black;
+}
+.heading {
+    font-weight: 700;
+    font-size: 32px;
+    padding: 30px;
+    border: 1px solid gray;
+}
+.user-list {
+    overflow-y: scroll;
+}
+.single-user {
+    cursor: pointer;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    font-size: 20px;
+    border: 1px solid gray;
+}
+.single-user-selected {
+    cursor: pointer;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    font-size: 20px;
+    border: 1px solid gray;
+    background: gray;
+}
+.single-user:hover {
+    background: lightgray;
+}
